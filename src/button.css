@@ -1,0 +1,34 @@
+#button
+{
+	float: left;
+	background-color:#BBFFEE;
+	height:30px; 
+	width:150px;
+	line-height:30px;
+	
+	border-bottom: 1px dashed #0066FF;
+	-webkit-animation-name: button_out;
+	-webkit-animation-duration: 0.15s;
+}
+#button:hover
+{
+	float: left;
+	background-color:#86eafc;
+	height:30px; 
+	width:150px;
+	line-height:30px;
+	
+	border-bottom: 1px dashed #0066FF;
+	-webkit-animation-name: button_in;
+	-webkit-animation-duration: 0.15s;
+}
+@-webkit-keyframes button_out
+{
+	from {background-color: #86eafc; width: 150px; }
+	to {background-color: #BBFFEE; width: 100px; }
+} 
+@-webkit-keyframes button_in
+{
+	from {background-color: #BBFFEE; width: 100px; }
+	to {background-color: #86eafc; width: 150px; }
+}
